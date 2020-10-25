@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Beer Consumption Predictor</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="app.js"></script>
+	<link rel="stylesheet" href="app.css">
+</head>
+<body>
+<div class="img"></div>
+<form class="form">
+	<h2 style="color:#ffffff">Average Temperature (C)</h2>
+    <input class="area"  type="email" id="uiAvgtemp" class="floatLabel" name="AvgTemp" value="23">
+	<h2 style="color:#ffffff">Minimal Temperature (C)</h2>
+    <input class="area"  type="email" id="uiMintemp" class="floatLabel" name="MinTemp" value="19">
+	<h2 style="color:#ffffff">Maximal Temperature (C)</h2>
+    <input class="area"  type="email" id="uiMaxtemp" class="floatLabel" name="MaxTemp" value="28">
+	<h2 style="color:#ffffff">Precipitation (mm)</h2>
+    <input class="area"  type="email" id="uiPrecip" class="floatLabel" name="Precip" value="0">
+	<h2 style="color:#ffffff">Weekend</h2>
+	<div class="switch-field">
+		<input type="radio" id="radio-bhk-1" name="Weekend" value="1"/>
+		<label for="radio-bhk-1">Yes</label>
+		<input type="radio" id="radio-bhk-2" name="Weekend" value="0" checked/>
+		<label for="radio-bhk-2">No</label>
+	</div>
+	<h2 style="color:#ffffff">Delta Temperature (C)</h2>
+    <input class="area"  type="email" id="uiDeltatemp" class="floatLabel" name="DeltaTemp" value="9">
+	</form>
+<form class="form">
+	<button class="submit" onclick="onClickedEstimateCons()" type="button">Estimate Consumption</button>
+	<div id="uiEstimatedCons" class="result">	<h2></h2> </div>
+</body>
+</html>
