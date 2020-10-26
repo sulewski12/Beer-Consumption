@@ -10,7 +10,7 @@ Back to the current project - If you were ever asking yourself what makes people
 
 The dataset I used was taken from https://www.kaggle.com/dongeorge/beer-consumption-sao-paulo.<br>
 It was collected in Sao Paulo, Brazil in university area. The respondents were between 18 and 28 years old.<br>
-The dataset is described in portuguese, nevertheless it's very explicit and easy to understand, at the beginning of my work with the data and translated it into English.
+The dataset is described in portuguese, nevertheless it's very explicit and easy to understand, at the beginning of my work with the data I translated it into English.
 
 ### EDA, Model implementation and taken steps
 
